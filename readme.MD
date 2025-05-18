@@ -21,11 +21,12 @@ This project is a powerful News Topic Classifier that automatically categorizes 
 📝 Sample Inputs: Try out the app with real-world news examples
 
 ## 🌐 Live Demo:
+Link : https://new-article-classification-using-nlp-nrsrc3pxheagvv2vwsxqvd.streamlit.app/
+
 🖥️ Try the App on Streamlit Cloud!
 
 ## 🏗️ Project Structure:
-text
-.
+
 ├── app.py                  # Streamlit web app
 
 ├── log_reg_model.pkl       # Trained Logistic Regression model

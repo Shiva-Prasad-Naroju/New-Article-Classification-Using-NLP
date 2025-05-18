@@ -1,28 +1,24 @@
 # 📰 News Topic Classifier & Text Analyzer
+---
 
 This project is a powerful News Topic Classifier that automatically categorizes news articles into one of four topics:
-🌎 World    
+🌎 World , 🏅 Sports , 💼 Business and 🔬 Science/Technology
 
-🏅 Sports    
-
-💼 Business    
-
-🔬 Science/Technology
-
-Built using Natural Language Processing (NLP) techniques and a Logistic Regression classifier (achieving 91% accuracy), the project features a modern, interactive web app built and deployed with Streamlit Community Cloud.
+  Built using Natural Language Processing (NLP) techniques and a Logistic Regression classifier (achieving 91% accuracy), the project features a modern, interactive web app built and deployed with Streamlit Community Cloud.
 
 ## ✨ Features:
-Automatic Topic Classification using Logistic Regression and TF-IDF
 
-Interactive Web App: User-friendly, visually appealing, and easy to use
+🤖 Automatic Topic Classification using Logistic Regression and TF-IDF
 
-Model Confidence Visualization: See prediction probabilities for each topic
+💻 Interactive Web App: User-friendly, visually appealing, and easy to use
 
-Text Analytics: Get word count, unique words, top keywords, and more
+📊 Model Confidence Visualization: See prediction probabilities for each topic
 
-Preprocessing Transparency: View how your text is cleaned before prediction
+📈 Text Analytics: Get word count, unique words, top keywords, and more
 
-Sample Inputs: Try out the app with real-world news examples
+🧹 Preprocessing Transparency: View how your text is cleaned before prediction
+
+📝 Sample Inputs: Try out the app with real-world news examples
 
 ## 🌐 Live Demo:
 🖥️ Try the App on Streamlit Cloud!
@@ -31,10 +27,15 @@ Sample Inputs: Try out the app with real-world news examples
 text
 .
 ├── app.py                  # Streamlit web app
+
 ├── log_reg_model.pkl       # Trained Logistic Regression model
+
 ├── tfidf_vectorizer.pkl    # TF-IDF vectorizer
+
 ├── requirements.txt        # Project dependencies
+
 ├── README.md               # This file
+
 └── News_Classification.ipynb # Jupyter notebook
 
 ## 📊 Model Performance:
@@ -46,15 +47,12 @@ Test Accuracy: 91%
 
 Classes: World, Sports, Business, Science/Technology
 
-🛠️ Getting Started:
+## 🏁 Conclusion:
 
-1. Clone the Repository
-bash
-git clone https://github.com/Shiva-Prasad-Naroju/New-Article-Classification-Using-NLP.git
-cd news-topic-classifier
-2. Install Dependencies
-bash
-pip install -r requirements.txt
-3. Run the App Locally
-bash
-streamlit run app.py
+🤖 Built a robust Logistic Regression classifier with 91% accuracy for news topic classification.
+
+💻 Developed an interactive Streamlit web app for easy, real-time predictions.
+
+📊 Included model confidence visualization and text analytics for deeper insights.
+
+🚀 Deployed the app on Streamlit Community Cloud for public access and demonstration.
